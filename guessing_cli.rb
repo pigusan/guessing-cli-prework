@@ -6,7 +6,9 @@ def run_guessing_game
   if guess == 'exit'
     puts "Goodbye!"
   else
-    until
+    until guess == computers_random_number
+    end
+    puts "You guessed the correct number!"
   end
 
 end
