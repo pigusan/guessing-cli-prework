@@ -2,6 +2,7 @@
 def run_guessing_game
   puts "Guess a number between 1 and 6."
   computers_random_number = rand(1..6)
+  computers_random_number = computers_random_number.to_s
   puts computers_random_number.is_a?(String)
   guess = gets.chomp
   puts guess.is_a?(String)
