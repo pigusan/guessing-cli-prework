@@ -4,7 +4,7 @@ def run_guessing_game
   computers_random_number = rand(1..6)
   puts computers_random_number.is_a?(String)
   guess = gets.chomp
-  puts guess.is_
+  puts guess.is_a?(String)
   if guess == 'exit'
     puts "Goodbye!"
   elsif guess == computers_random_number
