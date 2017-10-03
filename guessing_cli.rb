@@ -8,6 +8,6 @@ def run_guessing_game
   elsif guess == computers_random_number
     puts "You guessed the correct number!"
   else
-    puts "The computer guessed #{computers_random_number}"
+    puts "The computer guessed #{computers_random_number}."
   end
 end
